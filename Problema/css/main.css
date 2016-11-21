@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+   list-style: none;
+}
+body {
+    background: #ffffff;
+    font-size: 20px;
+}
+span{
+	display:table-cell;
+	vertical-align: middle;
+}
+.cuadrado1{
+	background: #58D3F7;
+	width: 150px;
+	height: 150px;
+}
+.cuadrado2{
+	background: #81F7F3;
+	width: 150px;
+	height: 150px;
+}
+.cuadrado3{
+	background: #F7D358;
+	width: 150px;
+	height: 150px;
+}
+.cuadrado4{
+	background: #FA58F4;
+	width: 150px;
+	height: 150px;
+}
+
+.class1 span{
+	color:#58D3F7;
+}
+.class2 span{
+	color:#81F7F3;
+}
+.class3 span{
+	color:#F7D358;
+}
+.class4 span{
+	color:#FA58F4;
+}
+ ul li a span {
+	
+	width: 150px;
+	height: 150px;
+	}
+ a {
+	position: relative;
+	display: inline;
+	text-decoration: none;
+}
+ a:hover span {
+	display: block;
+	margin-left: 150px;
+	background: #000;
+	
+
+}
+
+
+/* completa tu codigo aqui */
